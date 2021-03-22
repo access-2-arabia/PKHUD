@@ -89,7 +89,7 @@ internal class ContainerView: UIView {
 
     internal func showBackground(animated anim: Bool) {
         if anim {
-            UIView.animate(withDuration: 0.175, animations: {
+            UIView.animate(withDuration: 0.01, animations: {
                 self.backgroundView.alpha = 1.0
             })
         } else {
@@ -99,7 +99,7 @@ internal class ContainerView: UIView {
 
     internal func hideBackground(animated anim: Bool) {
         if anim {
-            UIView.animate(withDuration: 0.65, animations: {
+            UIView.animate(withDuration: 0.01, animations: {
                 self.backgroundView.alpha = 0.0
             })
         } else {
